@@ -9,5 +9,5 @@ print(no)
 i = a.index(24)
 print(i)
 
-
+   
 print(len(a))
