@@ -1,6 +1,6 @@
 '''
 class programmer:
-    company = "Ultron "
+    company = "Ultron"
     def show(self):
         print(f"The  name is {self.name} and the salary is {self.salary}")
 
@@ -10,7 +10,7 @@ class programmer:
 
 
 class employee:
-    salary =123456789
+    salary =1234567
     language =  "Python"
     company = "Kyzin.AI"
     def show(self,name,salary,language):
@@ -25,7 +25,7 @@ class programmer(employee):
         print(f"The name is {self.name} and he is good with {self.language} language")
 
 
-a = employee()
+a = employee() 
 b = programmer()
 print(a.salary,a.language)
 print(a.company , b.company)
